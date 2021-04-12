@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+}
+header{
+    background: url(../images/bg.png);  
+    background-position: top center; 
+    background-repeat: no-repeat; 
+    height: 790px;
+}   
+.navbar{
+    background: transparent !important; 
+}
+.nav-link{ 
+    font-family: 'Montserrat', sans-serif; 
+    color: #fff;
+    font-size: 22px;
+    padding: 0 20px !important; 
+}
+.nav-link::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #ffc200;
+    display: block;
+    margin: auto;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition: all .3s;
+} 
+.search:hover{
+    color: #ffc200 !important; 
+}
+.search:hover::after{
+    width: 0 !important;
+}
+.banner{
+    padding: 130px 0 0; 
+}
+.banner h1{
+    font-family: 'Grand Hotel', cursive;
+    color: #ffc200;
+    font-size: 125px; 
+}
+.banner p{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;  
+}
+.btn{
+    font-family: 'Montserrat', sans-serif; 
+    padding: 8px 60px; 
+    border-radius: 4px;
+    background: #ffc200;
+    color: #333333;
+    font-weight: 700;
+    font-size: 19px;
+    border: 2px solid #ffc200;
+}
+.btn:hover{
+    background: transparent;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+.sell-section{
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+.sell-first h1{
+    font-family: 'Grand Hotel', cursive;
+    color: #333333;
+    font-weight: 400;
+    font-size: 75px;
+}
+.sell-first p{
+    font-family: 'Montserrat', sans-serif; 
+    color: #333333;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 10px 140px 30px;
+}
+.items{
+    margin-top: 20px; 
+}
+.items h3{
+    font-family: 'Grand Hotel', cursive;
+    color: #333333;
+    font-size: 42px;
+    margin-top: 20px;
+}
+.items p{ 
+    font-family: 'Montserrat', sans-serif; 
+    color: #333333;
+    font-size: 17px;
+    padding: 0 50px;
+    line-height: 25px;
+} 
+.promo-section{
+    background: url(../images/bg1.png);   
+    height: 766px;
+    background-position: center; 
+    background-repeat: no-repeat;  
+}
+.promo-section .row{
+    padding-top: 220px;   
+}
+.promo-section .second{
+    padding-top: 100px;
+}
+.promo-section .second h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 100px;
+    color: #ffc200;
+}
+.promo-section .second p{ 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.counter-section{
+    background: url(../images/bg2.png); 
+    height: 922px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    text-align: center;
+}
+.counter-section .head h1{
+    margin-top: 120px; 
+    font-family: 'Grand Hotel', cursive;
+    font-size: 100px;
+    color: #ffc200;   
+}
+.counter-section .head p{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 25px; 
+    color: #fff;  
+    padding: 0 140px;  
+}
+.counter-section .count{ 
+    margin-top: 100px;
+}
+.counter-section .count .col-md-3{
+    border: 4px solid #fff;  
+    width: 16%;
+    margin: auto; 
+    border-radius: 50%; 
+    padding: 25px 0;  
+} 
+.counter-section .count .col-md-3 h3{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 51px;
+    color: #ffc200;
+} 
+.counter-section .count .col-md-3 p{ 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 29px;
+    color: #fff;
+    text-transform: uppercase;
+} 
+.section-2{
+    background: url(../images/bg3.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 793px;
+}
+.section-2 h1{
+    font-family: 'Grand Hotel', cursive;
+    color: #ffc200;
+    font-size: 100px; 
+    margin-top: 200px; 
+}
+.section-2 p{ 
+    font-family: 'Montserrat', sans-serif; 
+    color: #fff;  
+    font-size: 30px;  
+    padding: 20px 25px 20px 0;  
+}
+.section-2 img{
+    margin-top: 150px; 
+}
+.about-section{
+    padding: 200px 0; 
+    height: 769px; 
+    background: url(../images/bg4.png); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    text-align: center;
+}
+.about-section p{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 45px;
+    color: #333333;
+}
+.about-section h1{    
+    font-family: 'Grand Hotel', cursive;
+    font-size: 74px;
+    color: #333333;   
+    margin-top: 50px;
+}
+.contact-section{
+    height: 780px;
+    background: url(../images/bg5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0; 
+}
+.contact-section h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 100px;
+    color: #333333; 
+    text-align: center;
+}
+.contact-section p{ 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    color: #333333; 
+    padding: 30px 0; 
+    text-align: center; 
+}
+.contact-section .inputs{
+    width: 60%;
+    margin: auto; 
+    overflow: hidden;
+    border-radius: 5px;  
+    box-shadow: 2px 4px 18px rgba(0, 0, 0, 0.3);  
+}
+.contact-section .inputs input{  
+    display: inline-block; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 25px; 
+    padding: 9px 10px;    
+    margin-left: 1px; 
+    border: none; 
+    float: left;
+    width: 69%;
+}
+.contact-section .inputs input:focus{
+    outline: none;
+}
+.contact-section .inputs .btn{ 
+    display: inline-block;    
+    border-radius: 0 !important; 
+    padding: 12px 40px !important;   
+    float: right;
+    width: 30%;  
+} 
+.contact-section .inputs .btn:hover{
+    color: #333333;
+    background: #ffc200; 
+}
+footer{
+    padding: 150px 0;
+    background: #2f2f2f; 
+}
+footer h5{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 22px; 
+    color: #fff;
+    padding-right: 100px;
+    padding-top: 40px; 
+    padding-bottom: 40px;    
+}
+footer ul{
+    list-style: none;
+}
+footer .col-md-6 ul li{ 
+    margin-left: 0px !important;  
+    padding: 0 10px;
+}
+footer .col-md-6 ul li i{
+    color: #2f2f2f;
+    background: #fff; 
+    border-radius: 50%;
+    padding: 7px;   
+    font-size: 22px; 
+}
+footer .col-md-6 ul li i:hover{ 
+    color: #ffc200; 
+    transform: rotate(360deg);
+    transition: ease-in-out .2s;
+}
+footer .col-md-6 ul li{ 
+    display: inline-block;   
+}
+footer ul li{
+    margin-left: -30px !important; 
+    cursor: pointer;
+}
+footer #first{ 
+    margin-left: -40px !important;    
+}
+footer .sep ul li{
+    font-family: 'Montserrat', sans-serif; 
+    color: #fff; 
+    font-size: 16px; 
+    padding: 5px 0;
+}
+footer .sep ul{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+/* 
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif; 
+*/
