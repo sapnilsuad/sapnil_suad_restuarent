@@ -1,0 +1,305 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */ 
+    
+}
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+@media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */ 
+    
+}
+  
+  /*  
+    ##Device = Tablets, Ipads (portrait) 
+    ##Screen = B/w 768px to 1024px
+  */
+  
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+.nav-link{ 
+  color: #FFC200 !important;  
+  text-align: right;
+}
+.banner {
+  padding: 50px 0 0 !important; 
+}
+.banner h1 {
+  font-size: 100px !important;
+}
+.sell-first p { 
+  font-size: 22px !important;
+  padding: 10px 30px 30px !important;
+}
+.items p {
+    padding: 0 !important;
+}
+.promo-section .second {
+  padding-top: 100px !important;
+}
+.promo-section .second h1 {
+  font-size: 60px !important; 
+}
+.promo-section .second p {
+  font-size: 22px !important; 
+}
+.counter-section .head h1 {
+  margin-top: 0px !important;
+}
+.counter-section .head p {
+  padding: 0 70px !important;
+}
+.counter-section .count .col-md-3 {
+  width: 22% !important;
+  padding: 24px 0 !important;
+}
+.counter-section .count .col-md-3 h3 {
+  font-size: 36px !important;
+}
+.counter-section .count .col-md-3 p {
+  font-size: 22px !important;
+}
+.section-2{
+  margin-top: -20px !important;
+}
+.section-2 h1 {
+  font-size: 90px !important;
+  margin-top: 130px !important;
+}
+.section-2 p {
+  font-size: 26px !important;
+  padding: 20px 0px !important; 
+}
+.section-2 img {
+  margin-top: 315px !important;
+}
+.about-section {
+  padding: 100px 0 !important;
+  height: 500px !important;
+} 
+.about-section p { 
+  font-size: 32px !important;
+}
+.contact-section {
+  height: 650px !important;
+  padding: 100px 0 !important;
+}
+.contact-section p {
+  font-size: 22px !important;
+}
+.contact-section .inputs {
+  width: 90% !important;
+}
+footer {
+  padding: 100px 0 !important;
+}
+footer h5 {
+  font-size: 20px !important;
+}
+footer p {
+  font-size: 18px !important;
+  padding-right: 10px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+footer .sep ul {
+  margin-top: 20px !important;
+}
+footer .sep ul li {
+  font-size: 15px !important;
+  padding: 5px 0 !important;
+}
+
+
+
+
+}
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px 
+  */
+  
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+
+    
+}
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+@media (min-width: 481px) and (max-width: 767px) { 
+    
+    
+    
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 320px) and (max-width: 750px) { 
+    
+  header{
+    height: 100vh;
+  }
+  .nav-link{  
+    color: #FFC200 !important;   
+    text-align: center; 
+  }
+  .banner {
+    padding: 80px 0 20px !important;  
+  }
+  .banner h1 { 
+    font-size: 70px !important; 
+    text-align: center; 
+  }
+  .banner p{
+    font-size: 18px !important;
+    text-align: center; 
+  }
+  header .btn{
+    display: block !important;
+    margin: auto !important;
+  }
+  .sell-first p {  
+    font-size: 22px !important;
+    padding: 10px 30px 30px !important;
+  }
+  .items p {
+      padding: 0 !important;
+  }
+  .promo-section .row {
+    padding-top: 0px !important; 
+  } 
+  .promo-section .second {
+    padding-top: 20px !important;
+  }
+  .promo-section .second h1 {
+    font-size: 60px !important; 
+    text-align: center !important;
+  }
+  .promo-section .second p { 
+    font-size: 22px !important; 
+    text-align: center !important;
+  }
+  .counter-section .head h1 {
+    margin-top: 0px !important;
+    font-size: 60px !important;
+  }
+  .promo-section button{
+    display: block !important;
+    margin: auto !important;
+  }
+  .counter-section{
+    height: 730px !important; 
+    margin-top: -10px !important;
+  }
+  .counter-section .head p { 
+    padding: 0 0px !important;
+    font-size: 22px !important;
+  }
+  .counter-section .count .col-md-3 {
+    margin-top: 24px !important;
+    display: block !important;  
+    width: 40% !important;
+    padding: 19px 0 !important;
+  }
+  .counter-section .count {
+    margin-top: 0px !important;
+  } 
+  .counter-section .count .col-md-3 h3 {
+    font-size: 36px !important;
+  }
+  .counter-section .count .col-md-3 p {
+    font-size: 22px !important;
+  }
+  .section-2{  
+    height: 793px !important;
+    margin-top: -20px !important;
+  }
+  .section-2 h1 {
+    font-size: 60px !important;
+    margin-top: 0px !important;
+    text-align: center !important;
+  }
+  .section-2 p { 
+    font-size: 22px !important; 
+    padding: 20px 0px !important; 
+    text-align: center !important;
+  }
+  .section-2 .btn{
+    display: block !important;
+    margin: auto !important;
+  }
+  .section-2 img {  
+    margin-top: 65px !important;
+  }
+  .about-section { 
+    padding: 75px 0 !important;
+    height: 400px !important;
+  } 
+  .about-section p {  
+    font-size: 22px !important;
+  }
+  .about-section h1 {
+    font-size: 65px !important; 
+  }
+  .contact-section {
+    height: 650px !important;
+    padding: 100px 0 !important;
+  }
+  .contact-section p {
+    font-size: 22px !important;
+  }
+  .contact-section .inputs {
+    width: 100% !important;
+  }
+  .contact-section .inputs input {
+    font-size: 16px !important;  
+    padding: 16px 5px !important;
+    margin-left: 0px !important;
+    width: 67% !important;
+  } 
+  .contact-section .inputs .btn {
+    padding: 16px 9px !important;
+    width: 32% !important;
+    font-size: 14px !important;
+  } 
+  footer {
+    padding: 100px 0 !important;
+  }
+  footer h5 {
+    font-size: 20px !important;
+  }
+  footer p {
+    font-size: 18px !important;
+    padding-right: 10px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  footer .sep ul {
+    margin-top: 20px !important;
+  }
+  footer .sep ul li {
+    font-size: 15px !important;
+    padding: 5px 0 !important;
+  }
+  
+    
+}
